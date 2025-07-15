@@ -14,7 +14,7 @@ function Counter() {
 
   return (
     <>
-      {Count < 0 ? <p>0</p> : <p>{Count}</p>}
+      <p>{Count}</p>
 
       <button onClick={Increment}>Increment</button>
       <button onClick={Decrement}>Decrement</button>
