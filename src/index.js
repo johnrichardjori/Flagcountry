@@ -4,14 +4,15 @@ import ReactDOM from 'react-dom/client';
 // import LocationSelector from './States';
 // import FullNameForm from './Fullname';
 // import Counter from './Counter';
-import Calculator from './Calculator';
+// import Calculator from './Calculator';
+import Pagination from './Pagination';
 
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Calculator />
+    <Pagination />
   </React.StrictMode>
 );
 
